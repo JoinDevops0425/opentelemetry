@@ -8,11 +8,6 @@ variable "subnet_ids" {
   type = list(string)
 }
 
-variable "node_groups" {
-  description = "node group name"
-  type = list(string)
-}
-
 
 variable "node_groups" {
   description = "EKS node group configuratoin"
